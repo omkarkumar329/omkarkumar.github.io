@@ -1,0 +1,190 @@
+body{
+	/*background-image: url('../img/background2.jpg') ;*/
+	width: 100%;
+	height: 100 vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:fixed;
+	background-color: #00050a;
+	font-family: serif;
+}
+img{
+	background-image: url('../img/profile_picture.jpg');
+	width: 100%;
+	height: 100%;
+	/*padding: 20px;*/
+	margin: 10px;
+
+   position :static;
+}
+/*.about{
+	
+	padding: 10px;
+	margin: 10px;
+}*/
+.resume{
+
+    padding: 10px;
+	margin: 10px;
+	position:relative;
+	text-align: center;
+	color:#15f4ee;
+     background-color: black;
+	border:5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1.5s;
+}
+
+	.resume:hover{
+	box-shadow: 0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee,  0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee;
+}
+}
+.work{
+    position:relative;
+	text-align: center;
+	color:#15f4ee;
+     background-color: black;
+	border:5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1.5s;
+	padding: 10px;
+	margin:  10px;
+	
+	
+}
+.work:hover
+{
+	box-shadow: 0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee,  0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee;
+
+}
+.contact
+{
+	position:relative;
+	text-align: center;
+	color:#15f4ee;
+     background-color: black;
+	border:5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1.5s;
+	padding: 10px;
+	margin:  10px;
+}
+.contact:hover{
+	box-shadow: 0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee,  0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee;
+}
+.co{
+	text-align: justify;
+}
+.rsm1
+{
+	text-align: justify;
+}
+.line-sep{
+	border:1px black;
+}
+.home  {
+	position:relative;
+	text-align: center;
+	color:#15f4ee;
+     background-color: black;
+	border:5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1.5s;
+	padding: 10px;
+	margin:  10px;
+}
+.home:hover{
+	box-shadow: 0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee,  0 10px 30px 0 #15f4ee inset ,
+	            0 10px 30px 0 #15f4ee;
+}
+
+.anim{
+	color:#15f4ee; 
+}
+.foot{
+	position:relative;
+	
+	color:#15f4ee;
+     background-color: black;
+	border:5px solid #15f4ee;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 1.5s;
+	padding: 10px;
+	margin:  10px;
+
+}
+.foot:hover{
+	box-shadow: 0 10px 5px 0 #15f4ee inset ,
+	            0 10px 5px 0 #15f4ee,  0 5px 5px 0 #15f4ee inset ,
+	            0 10px 5px 0 #15f4ee;
+
+}
+.download{
+
+}
+.name{
+	margin top:  25px;
+	padding: 0;
+	color: #111;
+	display: flex
+	font-size: 8em;
+
+}
+.name span
+{
+	display: table-cell;
+	margin:%;
+	padding-left: 1.5%;
+	
+	animation: animate 2s linear infinite;
+
+
+}
+/*.name +span :nth-child(1)
+{   
+	animation-delay: 0s;}
+
+.name +span :nth-child(2)
+{animation-delay: 0.25s;}
+
+.name +span :nth-child(3)
+{animation-delay: 0.50s;}
+
+.name +span :nth-child(4)
+{animation-delay: 0.75s;}
+
+.name +span :nth-child(5)
+{animation-delay: 1s}*/
+
+
+
+@keyframes animate {
+	0%,100%{
+		color: #fff;
+		filter:blur(2px);
+		text-shadow: 0 0 20px #00b3ff,
+		           0 0 40px #00b3ff,
+		           0 0 80px #00b3ff,
+		           0 0 1200px #00b3ff,
+		           0 0 160px #00b3ff;
+	}
+	
+	5%,95%{
+		color: #111;
+		filter: blur(0px); 
+		text-shadow: 0 0 10px none;
+	}
+
+}
